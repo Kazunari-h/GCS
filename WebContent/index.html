@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="apple-touch-icon" href="home.png">
+	<title>game</title>
+	<script type="text/javascript" src="gurakoro.js"></script>
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- スタート画面 -->
+<div id="startTitle">
+	<div id="button1">Game Start</div>
+<!-- ブラウザ用　-->
+	<audio id="audio0">
+		<source src="se2.wav">
+	</audio>
+</div>
+
+<!-- play画面 -->
+<div id="gameDisplay">
+	<!-- ステータス表示 -->
+	<div id="status">
+		<div id="pointbox">合計　<span id="point">0</span>　カロリー</div>
+	</div>
+
+	<!-- パズル -->
+	<div id="con">
+		<!-- 一列目 -->
+			<div id="a0">
+				<div id="b0"></div>
+			</div>
+			
+			<div id="a1">
+				<div id="b1"></div>
+			</div>
+
+			<div id="a2">
+				<div id="b2"></div>
+			</div>
+
+			<div id="a3">
+				<div id="b3"></div>
+			</div>
+
+
+		<!-- 二列目 -->
+			<div id="a4">
+				<div id="b4"></div>
+			</div>
+
+			<div id="a5">
+				<div id="b5"></div>
+			</div>
+
+			<div id="a6">
+				<div id="b6"></div>
+			</div>
+
+			<div id="a7">
+				<div id="b7"></div>
+			</div>
+
+
+		<!-- 三列目 -->
+			<div id="a8">
+				<div id="b8"></div>
+			</div>
+
+			<div id="a9">
+				<div id="b9"></div>
+			</div>
+
+			<div id="a10">
+				<div id="b10"></div>
+			</div>
+
+			<div id="a11">
+				<div id="b11"></div>
+			</div>
+
+
+
+		<!-- 四列目 -->
+			<div id="a12">
+				<div id="b12"></div>
+			</div>
+
+			<div id="a13">
+				<div id="b13"></div>
+			</div>
+
+			<div id="a14">
+				<div id="b14"></div>
+			</div>
+
+			<div id="a15">
+				<div id="b15"></div>
+			</div>
+	</div>
+
+<!-- PC用テストコントローラー -->
+	<div id="b17">
+		<input type="button" id="up" value="上">
+		<input type="button" id="down" value="下">
+		<input type="button" id="left" value="左">
+		<input type="button" id="right" value="右">
+		<input type="button" id="back" value="戻る">
+	</div>
+
+</div>
+
+</body>
+</html>
