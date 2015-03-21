@@ -603,11 +603,6 @@ onload =function(){
 		}
 	}
 
-	/*　便利かな？*/
-	function $(id){
-		return document.getElementById(id);
-	}
-
 	//0~iのランダムな数字を出力する
 	function random(i){
 		return Math.floor(Math.random() * i);
